@@ -1,0 +1,14 @@
+<%- include partials/header.ejs %>
+<h1>Compose</h1>
+<form action="/compose" method="post">
+   <label for="tittle">
+       Tittle
+   </label>
+   <input type="text" name="tittle" class="">
+   <label for="text">Text</label>
+   <input type="text" name="text" id="" class="">
+    <button type="submit" class="btn btn-primary">Publish</button>
+</form>
+<%- include partials/footer.ejs %>
+
+<!-- https://getbootstrap.com/docs/3.3/components/#input-groups -->
