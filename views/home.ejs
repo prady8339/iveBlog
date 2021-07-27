@@ -1,9 +1,6 @@
-<%- include partials/header.ejs %>
+<%- include("partials/header") %>
 
 <h1>Home</h1>
 <p><%=content1%></p>
-<% for(int i=0;i<=globalPost.length;i++)%>
-<h1><%=globalPost.tittle%></h1>
-<p><%=globalPost.text%></p>
-<%%>
-<%-include partials/footer.ejs %>
+<% console.log(composeText); %>
+<%- include("partials/footer") %>
