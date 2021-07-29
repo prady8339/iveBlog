@@ -39,7 +39,7 @@ app.get("/compose",(req,res)=>{
 
 app.post("/compose",(req,res)=>{
   const post = {
-    tittle : req.body.composeTittle ,
+    title : req.body.composeTittle ,
     text : req.body.composeText
   };
   globalPost.push(post);

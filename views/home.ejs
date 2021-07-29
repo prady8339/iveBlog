@@ -1,6 +1,10 @@
-<%- include("partials/header") %>
+<%- include partials/header -%>
 
 <h1>Home</h1>
 <p><%=content1%></p>
-<% console.log(composeText); %>
-<%- include("partials/footer") %>
+
+<% for(let i=0;i<=composeText.length;i++){ %>
+<% console.log(composeText[i]); %> 
+    <%  } %>
+
+    <%- include partials/footer -%>
