@@ -3,8 +3,8 @@
 <h1>Home</h1>
 <p><%=content1%></p>
 
-<% for(let i=0;i<=composeText.length;i++){ %>
-<% console.log(composeText[i]); %> 
-    <%  } %>
-
+<% composeText.forEach(element =>{ %>
+<h1><%=element.title%></h1>
+<p><%=element.text %></p>
+ <% }); %>
     <%- include partials/footer -%>
