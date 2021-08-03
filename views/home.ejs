@@ -5,6 +5,9 @@
 
 <% composeText.forEach(element =>{ %>
 <h1><%=element.title%></h1>
-<p><%=element.text %></p>
- <% }); %>
+<p><%=element.text.substr(0,97)+"..." %>
+  <% let link = "/post/"+element.title; %> 
+   <a href="<%=link%>">Read more.</a>
+</p>
+ <% }); %> 
     <%- include partials/footer -%>
