@@ -1,1 +1,1 @@
-This projects needs upgradation and connection to database.
+This project needs upgradation and connection to database.
