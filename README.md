@@ -1,4 +1,4 @@
- <h3> upcoming upgrade plans </h3> 
+ <h3> Upcomming Upgrade plans </h3> 
 1. This project needs upgradation and connection to database. <br>
 2. further it needs to be intergrated with a todolist project. <br>
 3. introduction of authentication. <br>
